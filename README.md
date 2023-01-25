@@ -9,3 +9,5 @@ In particular, the SDF file format of the Centre for Fusion Space and Astrophysi
 There is also an extension to the Lare3d code itself to output the velocity at *e.g.* the bottom boundary every timestep, thereby allowing the “footpoints” of magnetic field lines to be accurately tracked throughout the simulation. Higher level quantities such as the squashing factor *Q* and the connectivity of magnetic field lines can also be calculated.
 
 The package is written mostly in Python version ≥ 3.7, with additional high-performance routines in Fortran 90.
+
+**Please acknowledge the use of these routines if you publish or present any results**. Feel free to get in touch, I am quite approachable.
