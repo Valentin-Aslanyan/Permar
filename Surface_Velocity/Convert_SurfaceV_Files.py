@@ -36,7 +36,7 @@ if remove_split_files:
 	for f in os.listdir(data_directory):
 		if os.path.isfile(os.path.join(data_directory, f)) and ('SurfV' in f or 'Surfx' in f or 'Surfy' in f) and f.count('_')==2:
 			os.remove(os.path.join(data_directory, f))
-		if os.path.isfile(os.path.join(data_directory, f)) and ('SurfVt' in f) and f.count('_')==1:
+		if os.path.isfile(os.path.join(data_directory, f)) and ('Surft' in f) and f.count('_')==1:
 			os.remove(os.path.join(data_directory, f))
 
 
